@@ -1,0 +1,17 @@
+Descripción: Grafo conexo sin ciclos, con un nodo raíz y nodos hijos.
+
+Contexto de uso: Sistemas de archivos, DOM de HTML, algoritmos de búsqueda.
+
+Métodos relevantes (para árbol binario):
+
+insert(value): Inserta un valor en el árbol
+
+search(value): Busca un valor en el árbol
+
+delete(value): Elimina un valor del árbol
+
+inorder_traversal(): Recorrido en orden (izq, raíz, der)
+
+preorder_traversal(): Recorrido en preorden (raíz, izq, der)
+
+postorder_traversal(): Recorrido en postorden (izq, der, raíz)

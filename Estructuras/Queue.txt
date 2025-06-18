@@ -1,0 +1,17 @@
+Descripción: Estructura FIFO (First In, First Out) donde los elementos se añaden al final y se eliminan 
+del principio.
+
+Contexto de uso: Sistemas de impresión (el primer documento enviado es el primero en imprimirse), manejo 
+de solicitudes en servidores.
+
+Métodos relevantes:
+
+enqueue(item): Añade un elemento al final de la cola
+
+dequeue(): Elimina y devuelve el elemento del frente de la cola
+
+peek(): Devuelve el elemento del frente sin eliminarlo
+
+is_empty(): Verifica si la cola está vacía
+
+size(): Devuelve el número de elementos en la cola

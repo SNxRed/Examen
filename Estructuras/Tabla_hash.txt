@@ -1,0 +1,15 @@
+Descripción: Estructura que asocia claves con valores usando una función hash para calcular la posición.
+
+Contexto de uso: Bases de datos (índices), cachés, implementación de diccionarios.
+
+Métodos relevantes:
+
+insert(key, value): Añade un par clave-valor
+
+get(key): Obtiene el valor asociado a una clave
+
+remove(key): Elimina un par clave-valor
+
+contains(key): Verifica si una clave existe
+
+resize(new_size): Cambia el tamaño de la tabla

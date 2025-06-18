@@ -1,0 +1,19 @@
+Descripción: Conjunto de nodos (vértices) conectados por aristas (pueden ser dirigidos o no, ponderados o no).
+
+Contexto de uso: Redes sociales (nodos=usuarios, aristas=amistades), sistemas de navegación (mapas).
+
+Métodos relevantes:
+
+add_vertex(vertex): Añade un vértice
+
+add_edge(v1, v2, weight): Añade una arista entre v1 y v2
+
+get_vertices(): Devuelve todos los vértices
+
+get_edges(): Devuelve todas las aristas
+
+bfs(start): Recorrido en anchura
+
+dfs(start): Recorrido en profundidad
+
+dijkstra(start): Camino más corto desde un nodo

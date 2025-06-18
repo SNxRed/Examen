@@ -1,0 +1,13 @@
+Descripción: Variante de lista enlazada donde el último nodo apunta al primero, formando un círculo.
+
+Contexto de uso: Sistemas de round-robin (turnos rotativos), buffers circulares.
+
+Métodos relevantes:
+
+append(data): Añade un nodo al final de la lista
+
+remove(data): Elimina el nodo con el valor especificado
+
+traverse(): Recorre toda la lista
+
+josephus_problem(k): Resuelve el problema de Josephus (eliminación cada k elementos)

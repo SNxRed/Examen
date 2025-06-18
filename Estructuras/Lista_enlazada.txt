@@ -1,0 +1,17 @@
+Descripción: Una estructura de datos lineal donde cada elemento (nodo) contiene un valor y una
+referencia al siguiente nodo. No tiene tamaño fijo y permite inserciones/eliminaciones eficientes.
+
+Contexto de uso: Cuando necesitas frecuentes inserciones/eliminaciones en medio de la lista (como 
+un historial de navegación donde puedes avanzar y retroceder).
+
+Métodos relevantes:
+
+insert(data): Añade un nuevo nodo con data al principio de la lista
+
+append(data): Añade un nuevo nodo al final de la lista
+
+delete(data): Elimina el primer nodo que contenga data
+
+search(data): Busca un nodo con data y devuelve su posición
+
+size(): Devuelve el número de nodos en la lista

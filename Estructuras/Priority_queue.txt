@@ -1,0 +1,16 @@
+Descripción: Cola donde cada elemento tiene una prioridad asociada y los elementos con mayor 
+prioridad salen primero.
+
+Contexto de uso: Sistemas operativos (planificación de procesos), algoritmos como Dijkstra.
+
+Métodos relevantes:
+
+insert(item, priority): Añade un elemento con su prioridad
+
+pop(): Elimina y devuelve el elemento con mayor prioridad
+
+peek(): Devuelve el elemento con mayor prioridad sin eliminarlo
+
+is_empty(): Verifica si la cola está vacía
+
+change_priority(item, new_priority): Cambia la prioridad de un elemento

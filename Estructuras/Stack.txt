@@ -1,0 +1,17 @@
+Descripción: Estructura LIFO (Last In, First Out) donde los elementos se añaden y eliminan del mismo 
+extremo (tope).
+
+Contexto de uso: Historial de navegación (el último sitio visitado es el primero al retroceder), 
+evaluación de expresiones matemáticas.
+
+Métodos relevantes:
+
+push(item): Añade un elemento al tope de la pila
+
+pop(): Elimina y devuelve el elemento del tope
+
+peek(): Devuelve el elemento del tope sin eliminarlo
+
+is_empty(): Verifica si la pila está vacía
+
+size(): Devuelve el número de elementos en la pila

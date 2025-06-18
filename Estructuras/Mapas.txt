@@ -1,0 +1,17 @@
+Descripción: Estructura que almacena pares clave-valor donde cada clave es única.
+
+Contexto de uso: Almacenamiento de configuraciones, bases de datos en memoria, conteo de frecuencias.
+
+Métodos relevantes:
+
+put(key, value): Añade o actualiza un par clave-valor
+
+get(key): Obtiene el valor asociado a una clave
+
+remove(key): Elimina un par clave-valor
+
+keys(): Devuelve todas las claves
+
+values(): Devuelve todos los valores
+
+items(): Devuelve todos los pares clave-valor
