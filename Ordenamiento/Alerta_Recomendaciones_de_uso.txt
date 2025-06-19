@@ -1,0 +1,22 @@
+1- Pequeños conjuntos de datos: Insertion Sort (simple y eficiente para n < 50)
+
+2- Conjuntos medianos: Shell Sort o Heap Sort
+
+3- Conjuntos grandes en memoria: Quick Sort (promedio más rápido) o Merge Sort (estable)
+
+4- Datos casi ordenados: Insertion Sort o Bubble Sort (con bandera)
+
+5- Números enteros con rango conocido: Counting Sort o Radix Sort
+
+6- Datos uniformemente distribuidos: Bucket Sort
+
+7- Uso general en Python: Tim Sort (ya incorporado en sorted() y list.sort())
+
+8- Datos multidimensionales: Cube Sort
+
+9- Datos en flujo/stream: Tree Sort o Insertion Sort
+
+Python implementa TimSort de forma nativa (en C) para las funciones sorted() y list.sort(), que es 
+altamente optimizado y adecuado para la mayoría de los casos de uso. Para necesidades especializadas, 
+puedes considerar implementar alguno de los otros algoritmos según las características específicas de 
+tus datos.
