@@ -1,0 +1,19 @@
+Descripción:
+
+Construye un árbol binario de búsqueda con los elementos
+
+Realiza un recorrido in-order para obtener los elementos ordenados
+
+Cuándo usarlo:
+
+Cuando los datos llegan en flujo (stream)
+
+Cuando se necesita mantener la estructura para búsquedas posteriores
+
+Complejidad:
+
+Peor caso: O(n²) (árbol degenerado)
+
+Mejor caso: O(n log n) (árbol balanceado)
+
+Caso promedio: O(n log n)

@@ -1,0 +1,19 @@
+Descripción:
+
+Divide la lista en mitades
+
+Ordena cada mitad recursivamente
+
+Fusiona las mitades ordenadas
+
+Cuándo usarlo:
+
+Cuando se necesita estabilidad (mantener orden de iguales)
+
+Para ordenar listas enlazadas
+
+Cuando el peor caso debe ser O(n log n)
+
+Complejidad:
+
+Todos los casos: O(n log n)

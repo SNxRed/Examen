@@ -1,0 +1,15 @@
+Descripción:
+
+Ordena los números dígito por dígito, desde el menos significativo al más significativo
+
+Usa un algoritmo estable (como counting sort) para ordenar por cada dígito
+
+Cuándo usarlo:
+
+Para números enteros o cadenas con tamaño fijo
+
+Cuando el rango de los números es conocido y no demasiado grande
+
+Complejidad:
+
+O(d*(n + b)) donde d es número de dígitos, b es base (10 para decimal)

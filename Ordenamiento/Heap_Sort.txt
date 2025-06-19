@@ -1,0 +1,15 @@
+Descripción:
+
+Construye un heap máximo (o mínimo) a partir de los datos
+
+Extrae repetidamente el elemento máximo/mínimo del heap y lo coloca al final/inicio
+
+Cuándo usarlo:
+
+Cuando se necesita un algoritmo O(n log n) con uso constante de memoria adicional
+
+Cuando el peor caso debe ser O(n log n)
+
+Complejidad:
+
+Todos los casos: O(n log n)

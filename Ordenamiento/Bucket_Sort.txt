@@ -1,0 +1,21 @@
+Descripción:
+
+Distribuye los elementos en un número finito de cubetas
+
+Ordena cada cubeta individualmente (usando otro algoritmo)
+
+Concatena las cubetas ordenadas
+
+Cuándo usarlo:
+
+Cuando la entrada está uniformemente distribuida
+
+Para datos flotantes en un rango conocido
+
+Complejidad:
+
+Peor caso: O(n²) (todos en una cubeta)
+
+Mejor caso: O(n + k) (k es número de cubetas)
+
+Caso promedio: O(n + n²/k + k)

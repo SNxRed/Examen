@@ -1,0 +1,21 @@
+Descripción:
+
+Elige un elemento como pivote
+
+Particiona la lista alrededor del pivote (elementos menores a la izquierda, mayores a la derecha)
+
+Aplica recursivamente a las sublistas
+
+Cuándo usarlo:
+
+Para listas grandes en memoria principal
+
+Cuando el rendimiento promedio es más importante que el peor caso
+
+Complejidad:
+
+Peor caso: O(n²) (pivote mal elegido)
+
+Mejor caso: O(n log n)
+
+Caso promedio: O(n log n)

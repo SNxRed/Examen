@@ -1,0 +1,19 @@
+Descripción:
+
+Compara pares de elementos adyacentes y los intercambia si están en orden incorrecto
+
+Repite el proceso hasta que no se necesiten más intercambios
+
+Cuándo usarlo:
+
+Principalmente con fines educativos
+
+Para listas casi ordenadas (con optimización)
+
+Complejidad:
+
+Peor caso: O(n²)
+
+Mejor caso (optimizado): O(n)
+
+Caso promedio: O(n²)

@@ -1,0 +1,23 @@
+Descripción:
+
+Generalización de insertion sort
+
+Ordena elementos separados por una brecha que va reduciéndose
+
+Eficiente para listas medianas
+
+Cuándo usarlo:
+
+Para listas medianas (hasta 5000 elementos)
+
+Cuando se necesita un algoritmo in-place con mejor rendimiento que O(n²)
+
+Complejidad:
+
+Depende de la secuencia de brechas
+
+Mejor caso: O(n log n)
+
+Peor caso: O(n²)
+
+Caso promedio: O(n^(3/2)) con brechas de Shell

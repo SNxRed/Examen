@@ -1,0 +1,19 @@
+Descripción:
+
+Construye la lista ordenada un elemento a la vez
+
+Toma cada elemento y lo inserta en su posición correcta dentro de la parte ya ordenada
+
+Cuándo usarlo:
+
+Para listas pequeñas o casi ordenadas
+
+Cuando los datos llegan en flujo (online algorithm)
+
+Complejidad:
+
+Peor caso: O(n²)
+
+Mejor caso: O(n)
+
+Caso promedio: O(n²)

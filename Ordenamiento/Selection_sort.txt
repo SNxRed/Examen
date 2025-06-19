@@ -1,0 +1,19 @@
+Descripción:
+
+Encuentra el elemento mínimo en la lista no ordenada y lo coloca al principio
+
+Repite el proceso para el resto de la lista
+
+Cuándo usarlo:
+
+Para listas pequeñas
+
+Cuando el número de intercambios debe ser mínimo (solo O(n) intercambios)
+
+Complejidad:
+
+Peor caso: O(n²)
+
+Mejor caso: O(n²)
+
+Caso promedio: O(n²)

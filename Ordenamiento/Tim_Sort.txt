@@ -1,0 +1,22 @@
+Descripción:
+
+Algoritmo híbrido que combina merge sort e insertion sort
+
+Diseñado para aprovechar runs (subsecuencias ordenadas) en datos del mundo real
+
+Cuándo usarlo:
+
+Es el algoritmo por defecto en Python (sorted() y list.sort())
+
+Para datos con patrones preordenados
+
+Cuando se necesita estabilidad y buen rendimiento en casos reales
+
+Complejidad:
+
+Peor caso: O(n log n)
+
+Mejor caso: O(n)
+
+Caso promedio: O(n log n)
+

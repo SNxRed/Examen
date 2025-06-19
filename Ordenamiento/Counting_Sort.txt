@@ -1,0 +1,17 @@
+Descripción:
+
+Cuenta el número de ocurrencias de cada elemento
+
+Calcula las posiciones finales basadas en los conteos
+
+Coloca los elementos en sus posiciones correctas
+
+Cuándo usarlo:
+
+Cuando el rango de los datos (k) no es significativamente mayor que el número de elementos (n)
+
+Para números enteros con rango conocido
+
+Complejidad:
+
+O(n + k) donde k es el rango de entrada

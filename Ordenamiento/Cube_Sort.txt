@@ -1,0 +1,17 @@
+Descripción:
+
+Versión 3D del bucket sort
+
+Divide el espacio en cubos y ordena dentro de cada cubo
+
+Útil para datos multidimensionales
+
+Cuándo usarlo:
+
+Para datos 3D o multidimensionales
+
+En gráficos por computadora y simulaciones físicas
+
+Complejidad:
+
+Depende de la implementación, similar a bucket sort pero en 3D
