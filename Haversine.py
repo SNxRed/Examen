@@ -10,7 +10,7 @@ def Haversine(Latitud1, Latitud2, Longitud1, Longitud2):
     return distance
 
 Longitude1 = -70.762778
-Longitude2 = -70.719949
+Longitude2 = -70.963794
 Latitude1 = -34.151652
-Latitude2 = -34.074444
+Latitude2 = -34.225633 
 print(Haversine(Latitud1=Latitude1, Latitud2=Latitude2, Longitud1=Longitude1, Longitud2=Longitude2))
